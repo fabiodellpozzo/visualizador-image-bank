@@ -216,7 +216,7 @@
 
 
 
-```
+```txt
 index.php
 ├─ PHP (POST / ZIP)
 │   └─ ZipArchive → gera e envia o ZIP se houver arquivos
@@ -270,7 +270,7 @@ index.php
 
 ```ML e CSS em tempo real, nossa ferramenta oferece a velocidade e os recursos que você precisa.
 
-```
+```txt
 ┌──────────────────────────────────────────────────────────┐
 │ Navbar/Topo (título do app)                             │
 ├──────────────────────────────────────────────────────────┤
