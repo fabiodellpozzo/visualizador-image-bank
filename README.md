@@ -382,7 +382,7 @@ zip_decision(no)->display
 3. Quando muda seleção de limite: valor vai para localStorage.imageLimit; ao próximo reload, o select vem pré-definido.
 4. Filtros de extensão não estão em localStorage, pois a aplicação sempre os obtém do GET.
 
-## Principais mudanças: v3
+## Principais mudanças: v2
 
 Principais mudanças:
 - selectedFiles é carregado de localStorage e salvo nele (selectedImages) sempre que for alterado.
