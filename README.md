@@ -1,4 +1,4 @@
-# Batendo um papo com o Copilot
+# Batendo um papo com o Copilot desenvolvi um visualidor de imagens!
 
 **Nesta noite estava sem sono** e resolvi bater um papo com o Copilot e pedi para ele me ajudar a criar algo para visualizar algumas imagens.
 
