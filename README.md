@@ -361,7 +361,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
 │ - Select de limite                         │
 │ - Botão de tema                            │
 │ - Botão de limpar seleção                  │
-│ - Botão de ocultar painel lateral          │
 └────────────┬───────────────────────────────┘
              │
              ▼
