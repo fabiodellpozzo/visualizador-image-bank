@@ -13,9 +13,6 @@
 - ⏮️ Botões « e » para ir à primeira e última página
 - 📌 Paginação fixa no rodapé da tela
 - ✅ Checkboxes para selecionar extensões de imagem
-- ✅ Filtro aplicado via GET (sem JavaScript)
-- ✅ Manutenção das seleções após envio
-- ✅ Integração com todos os recursos anteriores: range, localStorage, paginação fixa.
 
 
 ```php
