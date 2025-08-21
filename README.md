@@ -215,7 +215,7 @@
 
 # Wireframe (Esboço de Layout)
 
-![Mídia](http://localhost/visualizador-image-bank-v0.3/Wireframe%20e%20fluxogra.png)
+![Mídia](Wireframe%20e%20fluxogra.png)
 
 
 
