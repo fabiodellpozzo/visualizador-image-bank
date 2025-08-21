@@ -1,6 +1,6 @@
 # Batendo um papo com o Copilot
 
-**Nesta noite estava sem sono.** e resolvi bater um papo com o Copilot e pedi para ele me ajudar a criar algo para visualizar algumas imagens.
+**Nesta noite estava sem sono** e resolvi bater um papo com o Copilot e pedi para ele me ajudar a criar algo para visualizar algumas imagens.
 
 ## Recursos Principais
 
