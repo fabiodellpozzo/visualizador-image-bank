@@ -12,6 +12,18 @@
 - 📌 Paginação fixa no rodapé da tela
 - ✅ Checkboxes para selecionar extensões de imagem
 
+## 🧩 Estrutura do Projeto
+- ✅ Galeria com imagens redimensionáveis e selecionáveis
+- ✅ Painel lateral com lista de imagens selecionadas
+- ✅ Drag & drop para adicionar imagens ao painel
+- ✅ Tema claro/escuro com persistência
+- ✅ Limite de seleção configurável
+- ✅ Botão para limpar seleção
+- ✅ Modo compacto do painel lateral
+- ✅ Feedback visual com animação
+- ✅ Fallback para imagens ausentes
+- ✅ Código modular e otimizado
+
 
 ```php
 <?php
