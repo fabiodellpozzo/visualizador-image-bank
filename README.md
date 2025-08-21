@@ -15,7 +15,6 @@
 - Miniaturas (thumbs) com botão de remoção individual
 - Contador de imagens selecionadas
 - Botão “Limpar Seleção” com confirmação e ícone
-- Modo compacto para ocultar/exibir o painel
 
 🎨 Personalização Visual
 - Controle de tamanho das imagens com persistência
