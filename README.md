@@ -4,7 +4,7 @@
 
 ## Recursos Principais
 
-- **Editor em Tempo Real:** Escreva em Markdown de um lado e veja o resultado instantaneamente do outro.
+
 
 - 🎚️ Controle de tamanho das imagens com range
 - 📦 Seleção da quantidade de imagens por página com select
