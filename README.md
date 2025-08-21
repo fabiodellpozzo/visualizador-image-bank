@@ -4,8 +4,6 @@
 
 ## Recursos Principais
 
-
-
 - 🎚️ Controle de tamanho das imagens com range
 - 📦 Seleção da quantidade de imagens por página com select
 - 🧠 Persistência das preferências com localStorage
@@ -210,8 +208,7 @@
   </body>
 </html>
 ```
-# Visualizador Image Bank v0.3
-
+# v0.2
 
 # Wireframe (Esboço de Layout)
 
@@ -219,9 +216,7 @@
 
 
 
-# Wireframe (Esboço de Layout)
-
-```php
+```
 index.php
 ├─ PHP (POST / ZIP)
 │   └─ ZipArchive → gera e envia o ZIP se houver arquivos
@@ -275,7 +270,7 @@ index.php
 
 ```ML e CSS em tempo real, nossa ferramenta oferece a velocidade e os recursos que você precisa.
 
-```txt
+```
 ┌──────────────────────────────────────────────────────────┐
 │ Navbar/Topo (título do app)                             │
 ├──────────────────────────────────────────────────────────┤
@@ -298,7 +293,7 @@ index.php
 
 ## Fluxograma do Fluxo de Dados
 
-```txt
+```
 st=>start: Início
 load=>operation: Carrega página (index.php)
 form=>inputoutput: Lê filtros (GET params)
@@ -320,7 +315,7 @@ zip_decision(no)->display
 
 ## Wireframe + Interações JS / localStorage
 
-```txt
+```
 ┌────────────────────────────────────────────────────────────┐
 │ ↑ page load                                               │
 │ JS: onDOMContentLoaded                                   │
