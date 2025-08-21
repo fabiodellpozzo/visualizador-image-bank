@@ -4,13 +4,45 @@
 
 ## Recursos Principais
 
-- 🎚️ Controle de tamanho das imagens com range
-- 📦 Seleção da quantidade de imagens por página com select
-- 🧠 Persistência das preferências com localStorage
-- 🔢 Paginação compacta com no máximo 5 itens visíveis
-- ⏮️ Botões « e » para ir à primeira e última página
-- 📌 Paginação fixa no rodapé da tela
-- ✅ Checkboxes para selecionar extensões de imagem
+🖼️ Galeria de Imagens
+- Imagens redimensionáveis via controle deslizante (range)
+- Seleção por clique com destaque visual (borda e animação)
+- Drag & drop para adicionar imagens ao painel lateral
+- Limite de seleção configurável pelo usuário
+
+🧭 Painel Lateral de Seleção
+- Lista dinâmica de imagens selecionadas
+- Miniaturas (thumbs) com botão de remoção individual
+- Contador de imagens selecionadas
+- Botão “Limpar Seleção” com confirmação e ícone
+- Modo compacto para ocultar/exibir o painel
+
+🎨 Personalização Visual
+- Controle de tamanho das imagens com persistência
+- Alternância de tema claro/escuro com salvamento automático
+- Animação de feedback ao selecionar imagem (pulse)
+- Fallback para imagens ausentes (fallback.png)
+
+💾 Persistência de Dados
+- Uso de localStorage para:
+- Lista de imagens selecionadas
+- Tamanho das imagens
+- Limite de seleção
+- Tema visual
+
+🧠 Lógica Inteligente
+- Validação de limite de seleção com alerta amigável
+- Verificação de duplicidade ao selecionar imagens
+- Delegação de eventos para melhor performance
+- Funções utilitárias para salvar/carregar dados
+
+🛠️ Estrutura Modular
+- Código organizado em funções reutilizáveis
+- Separação clara entre interface, lógica e persistência
+- Fácil expansão para novos recursos (upload, ordenação, tags)
+
+
+
 
 ## 🧩 Estrutura do Projeto
 - ✅ Galeria com imagens redimensionáveis e selecionáveis
