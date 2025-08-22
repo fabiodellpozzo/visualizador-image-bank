@@ -114,13 +114,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
       max-height: 80vh; max-width: 90vw;
     }
   </style>
-
-
 </head>
 <body>
-
-
-
     <!-- Painel Adaptativo -->
     <aside id="selectedImagesPanel"
            class="col-12 col-lg-3 bg-light border rounded p-3">
@@ -137,9 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
       </form>
     </aside>
 
-
 <div class="col-12 col-lg-9">
-
   <!-- Controles de filtro -->
   <div class="container py-3">
     <form method="get" class="row g-3 align-items-center">
@@ -254,8 +247,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
       }
     ?>
   </div>
-
-    </div>
+</div>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script>
@@ -266,10 +258,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
     const list          = document.getElementById('selectedList');
     const filesInput    = document.getElementById('filesInput');
     const selectedCount = document.getElementById('selectedCount');
-
     // Carrega seleção persistente
     let selectedFiles = JSON.parse(localStorage.getItem('selectedImages') || '[]');
-
     // Atualiza UI e localStorage
     function updateSelected() {
       // limpa lista
@@ -293,12 +283,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
         img.classList.toggle('selected', selectedFiles.includes(fn));
       });
     }
-
     function removeImage(fn, btn) {
       selectedFiles = selectedFiles.filter(x => x !== fn);
       updateSelected();
     }
-
     window.addEventListener('DOMContentLoaded', () => {
       // Carrega tamanho e limite
       const sz = localStorage.getItem('imageSize');
@@ -320,7 +308,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
       // Reconstrói seleção persistente
       updateSelected();
     });
-
     // Ajusta tamanho das imagens
     function updateImageSize(size) {
       document.querySelectorAll('.resizable-img').forEach(img => {
@@ -329,7 +316,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['files'])) {
       });
       rangeValue.textContent = size + 'px';
     }
-
     rangeInput.addEventListener('input', () => {
       const s = rangeInput.value;
       localStorage.setItem('imageSize', s);
